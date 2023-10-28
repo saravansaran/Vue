@@ -41,6 +41,7 @@
   <h2>{{ title }}</h2>
     <button v-on:click="handleClick">Click to change the title</button>
     <hr> -->
+    <hr>
     <pre>
         {{ JSON.stringify(formValues, null, 1) }}
     </pre>
